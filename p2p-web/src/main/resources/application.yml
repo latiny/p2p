@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    # jdbc:mysql://localhost:3306/test 数据库地址
+    url: jdbc:mysql://localhost:3306/p2p?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT
+    username: root # 数据库用户名
+    password: gybk#123456  # 数据库密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml # 数据库驱动
+#  type-aliases-package: com.latiny.p2p.domain
+
