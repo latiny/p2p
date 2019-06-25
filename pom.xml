@@ -8,7 +8,8 @@
 		<module>p2p-dao</module>
 		<module>p2p-service</module>
 		<module>p2p-web</module>
-	</modules>
+        <module>p2p-common</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

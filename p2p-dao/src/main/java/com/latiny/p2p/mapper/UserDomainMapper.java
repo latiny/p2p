@@ -1,9 +1,9 @@
 package com.latiny.p2p.mapper;
 
 import com.latiny.p2p.domain.UserDomain;
-import org.springframework.stereotype.Repository;
+import org.apache.ibatis.annotations.Mapper;
 
-@Repository
+@Mapper
 public interface UserDomainMapper {
 
     int deleteByPrimaryKey(Integer id);
